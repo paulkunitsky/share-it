@@ -1,0 +1,14 @@
+[
+  {
+    "fullname": "John Doe",
+    "email": "test@gmail.com",
+    "password": "12345678",
+    "birthday": "01/15/2018"
+  },
+  {
+    "fullname": "Bonnie Wright",
+    "email": "bonnie@gmail.com",
+    "password": "12345678",
+    "birthday": "02/17/1991"
+  }
+]

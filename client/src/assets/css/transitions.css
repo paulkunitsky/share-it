@@ -1,0 +1,40 @@
+/* next */
+.next-enter-active,
+.next-leave-active {
+  transition: all 1s ease-in-out;
+}
+.next-enter {
+  opacity: 0;
+}
+.next-enter-to {
+  opacity: 1;
+}
+.next-leave-active {
+  opacity: 0;
+}
+
+/* prev */
+.next-enter-active,
+.next-leave-active {
+  transition: all 1.5s ease-out;
+}
+.prev-enter {
+  opacity: 0;
+  transform: translatex(-40px);
+}
+.prev-enter-to {
+  opacity: 1;
+  transform: translatex(0);
+}
+.prev-leave-active {
+  opacity: 0;
+  transform: translatex(40px);
+}
+
+/* fade */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.25s ease-out
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0
+}

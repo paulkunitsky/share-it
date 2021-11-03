@@ -1,0 +1,36 @@
+{
+  "name": "share.it",
+  "version": "1.0.0",
+  "description": "share.it app",
+  "author": "Paul <let.it.music@gmail.com>",
+  "main": "lib/app.js",
+  "license": "MIT",
+  "scripts": {
+    "db:dev": "mongod --dbpath \"./db/data\"",
+    "db:seed-local": "node db/seed",
+    "dev": "nodemon lib/app.js",
+    "production_test": "node lib/tests/production_test",
+    "start": "node lib/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "socket.io": "^2.4.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.14.10"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

@@ -1,0 +1,174 @@
+html,
+body {
+  user-select: none;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+html,
+body,
+*,
+*::placeholder {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500 !important;
+}
+
+.container.fill-height { position: relative !important }
+
+.card { border-radius: .25rem }
+.pagination__item {
+  width: auto !important;
+  min-width: 34px !important;
+}
+
+/* talks search bar */
+.input-group.input-group--solo { background-color: transparent !important }
+.theme--dark .input-group--focused .icon { color: #fff !important }
+
+.toolbar__textfield {
+  flex: 1 !important; 
+  width: 100% !important;
+  box-shadow: none !important;
+  margin-left: 0 !important;
+}
+.count-v-img { display: none !important }
+
+.list {
+  width: 100%;
+}
+.toolbar {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(0,0,0, 0.12) !important;
+}
+.center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.theme--dark .chat-form {background: transparent}
+.theme--dark .msg__bubble {background: #111 !important }
+.theme--dark .msg__corner {fill: #111 !important }
+.theme--dark .chat-divider span::after,
+.theme--dark .chat-divider span::before {
+  background-color: #ffffff1f;
+}
+.theme--dark .chat-form {border-color: #ffffff1f}
+.theme--dark .chat-divider {color: #ffffff1f}
+.theme--dark .chat-wrapper .icon {color: #9e9e9e !important }
+
+.theme--dark .toolbar { border-bottom-color: #ffffff1f !important }
+.theme--dark .card { border: 1px solid #ffffff1f !important }
+.theme--dark .chat-header { border-color: #ffffff1f }
+
+.theme--light .toolbar .icon { color: #6f6f6f !important }
+
+.navigation-drawer .list__tile:hover { background: none }
+/* light theme customizations for drawer */
+.theme--light .navigation-drawer .list__tile { opacity: 0.70 !important; }
+.theme--light .navigation-drawer .list__tile--active {
+  opacity: 1 !important;
+  color: rgba(0,0,0, 0.87) !important;
+  background: rgba(0,0,0,.12) !important;
+}
+.theme--light .navigation-drawer .list__tile--active .list__tile__content { color: rgba(0,0,0, 0.87) !important; }
+.theme--light .navigation-drawer .list__tile--active .icon { color: rgba(0,0,0, 0.87) !important; }
+
+/* dark theme customizations for drawer */
+.theme--dark .navigation-drawer .list__tile { opacity: 0.45 !important; }
+.theme--dark .navigation-drawer .list__tile--active {
+  opacity: 1 !important;
+  color: #fff !important;
+  background: rgba(0,0,0,.12) !important;
+}
+.theme--dark .navigation-drawer .list__tile--active .list__tile__content { color: #fff !important; }
+.theme--dark .navigation-drawer .list__tile--active .icon { color: #fff !important; }
+/* #232323 */
+.theme--dark .navigation-drawer { background-color: #111111 !important }
+.theme--dark .navigation-drawer .list { background-color: #111111 !important }
+.application.theme--dark { background-color: #111111 !important }
+.theme--dark .toolbar { background-color: #1a1a1a !important }
+.theme--dark .card { background-color: #1a1a1a !important }
+.theme--dark .list { background-color: #1a1a1a !important }
+.theme--dark .primary--text { color: #111111 !important }
+
+/* light theme pagination */
+.theme--light .pagination__item { color: rgba(0,0,0, 0.60) !important }
+.theme--light .pagination__item--active { color: #fff !important }
+
+/* dark theme pagination */
+.theme--dark .pagination__item { color: #ffffffcc !important }
+.theme--dark .pagination__navigation .icon { color: #ffffffcc !important }
+.theme--dark .pagination__navigation--disabled .icon { color: #aaa !important; background-color: #1a1a1a !important }
+.theme--dark .pagination__item--active { color: #aaa !important; background-color: #212121 !important }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.header-v-img,
+.footer-v-img {
+  background-color: transparent !important;
+}
+
+
+.ml-auto {margin-left: auto}
+.chat-wrapper .toolbar__content {width: 100% !important }
+.Messages { overflow: hidden }
+.Messages .card {
+  height: 100% !important;
+  max-height: 100% !important;
+  overflow: hidden !important;
+}
+.chat {
+  height: 400px;
+  min-height: 400px;
+}
+
+.chat::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+.chat::-webkit-scrollbar-button {
+  display: block;
+  width: 2px;
+  height: 2px;
+}
+.chat::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 0 1px rgba(150,163,182,.3);
+  background: rgba(150,163,182,.4);
+}
+.chat::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 1px rgba(207,215,230,.2);
+  background: rgba(207,215,230,.2);
+}
