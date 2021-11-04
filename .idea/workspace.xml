@@ -230,8 +230,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.lint-ui-plain" />
         <item itemvalue="npm.lint-ui" />
         <item itemvalue="npm.start-crm" />
