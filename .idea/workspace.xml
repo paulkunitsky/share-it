@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc37e44-b500-4354-b780-15248c6d8ae0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/dist/static/css/app.774b11fac8ab8f35401d8d8dbda12e80.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/dist/static/css/app.774b11fac8ab8f35401d8d8dbda12e80.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/dist/static/js/app.f56e58c675d7f3ab5b2b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/dist/static/js/app.f56e58c675d7f3ab5b2b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/modules/article/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/modules/article/components/Index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/modules/messages/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/modules/messages/components/Index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,8 +230,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.lint-ui-plain" />
         <item itemvalue="npm.lint-ui" />
         <item itemvalue="npm.start-crm" />
@@ -273,7 +265,7 @@
       <workItem from="1635879541052" duration="569000" />
       <workItem from="1635940675727" duration="4102000" />
       <workItem from="1635947011955" duration="11259000" />
-      <workItem from="1635983037311" duration="1405000" />
+      <workItem from="1635983037311" duration="1518000" />
     </task>
     <servers />
   </component>

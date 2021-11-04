@@ -120,7 +120,7 @@
         const {msgs} = this.talks[this.activeTalkIndex]
 
         msgs.push({
-          avatar: "/static/png/ali--128x128.jpeg",
+          avatar: "/static/png/ali--128x128.png",
           text: this.msgToSend,
           dateSent: moment(),
           seen: false
@@ -223,7 +223,7 @@
               seen: true,
             },
             {
-              avatar: "/static/png/ali--128x128.jpeg",
+              avatar: "/static/png/ali--128x128.png",
               text: "Why don't we go there someday?",
               dateSent: moment('2017-02-08 09:44:29'),
               seen: false,
@@ -256,7 +256,7 @@
               seen: false
             },
             {
-              avatar: "/static/png/ali--128x128.jpeg",
+              avatar: "/static/png/ali--128x128.png",
               text: "Damn, girl. Doin good )",
               dateSent: moment('2017-02-08 09:49:32'),
               seen: false
