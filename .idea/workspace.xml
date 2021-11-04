@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7bc37e44-b500-4354-b780-15248c6d8ae0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/modules/messages/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/modules/messages/components/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/modules/discover/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/modules/discover/components/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +14,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="3e3480e4478d79685d5a8e329230f871fb2b467c" />
+        <entry key="$USER_HOME$" value="3e3480e4478d79685d5a8e329230f871fb2b467c" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -265,7 +266,9 @@
       <workItem from="1635879541052" duration="569000" />
       <workItem from="1635940675727" duration="4102000" />
       <workItem from="1635947011955" duration="11259000" />
-      <workItem from="1635983037311" duration="1518000" />
+      <workItem from="1635983037311" duration="1588000" />
+      <workItem from="1635984734904" duration="377000" />
+      <workItem from="1635990219631" duration="310000" />
     </task>
     <servers />
   </component>

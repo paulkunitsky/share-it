@@ -51,7 +51,7 @@ h6 {
 .theme--dark .input-group--focused .icon { color: #fff !important }
 
 .toolbar__textfield {
-  flex: 1 !important; 
+  flex: 1 !important;
   width: 100% !important;
   box-shadow: none !important;
   margin-left: 0 !important;
@@ -171,4 +171,8 @@ h6 {
 .chat::-webkit-scrollbar-track {
   box-shadow: inset 0 0 0 1px rgba(207,215,230,.2);
   background: rgba(207,215,230,.2);
+}
+
+.title-v-img {
+  visibility: hidden;
 }

@@ -124,12 +124,12 @@
          */
         const pageIsCached = this.cachedPages.findIndex(p => p.pageNum === pageNum) !== -1
         if (pageIsCached) {
-          
+
           return
         }
 
         this.requestPending = true
-  
+
         const options = {
           params: {
             client_id,
@@ -148,7 +148,7 @@
               pageNum,
               posts
             })
-            
+
             this.totalPosts = parseInt(response.headers['x-total'])
             this.requestsLeft = response.headers['x-ratelimit-remaining']
           })
