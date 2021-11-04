@@ -16,8 +16,4 @@
 </script>
 
 <style>
-  h1 {
-    text-transform: uppercase;
-    color: red;
-  }
 </style>

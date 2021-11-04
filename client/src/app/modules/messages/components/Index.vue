@@ -16,7 +16,7 @@
             <v-icon>add</v-icon>
           </v-btn>
         </v-toolbar>
-  
+
         <v-list three-line>
           <template v-for="(talk, i) in filteredTalks">
             <v-list-tile avatar :key="talk.with" @click="setActiveTalk(talk.with)">
@@ -47,7 +47,7 @@
               :dark="$store.state.settings.nightMode"
               :color="$store.state.settings.nightMode ? null:'white'">
               With: <span :class="$store.state.settings.nightMode ? 'white--text':'black--text'">{{ talks[activeTalkIndex].with }}</span>
-              
+
               <v-btn icon @click="closeActiveTalk" class="ml-auto">
                 <v-icon>close</v-icon>
               </v-btn>
@@ -61,7 +61,7 @@
                   v-if="i === 0 || (talk.msgs[i-1] && msg.dateSent.diff(talk.msgs[i-1].dateSent, 'hours') > 2)">
                   <span>{{ msg.dateSent | time }}</span>
                 </div>
-  
+
                 <li
                   :key="i"
                   class="msg"
@@ -120,12 +120,12 @@
         const {msgs} = this.talks[this.activeTalkIndex]
 
         msgs.push({
-          avatar: "/static/png/ali--128x128.png",
+          avatar: "/static/png/ali--128x128.jpeg",
           text: this.msgToSend,
           dateSent: moment(),
           seen: false
         })
-        this.msgToSend = null   
+        this.msgToSend = null
       },
 
       onBubbleAnimationStart () {
@@ -146,10 +146,10 @@
           )
         } catch (err) {
           return this.talks
-        } 
+        }
       }
     },
-    
+
     data: () => ({
       activeTalkIndex: null,
       msgToSend: null,
@@ -159,32 +159,32 @@
       talks: [
         {
           with: "Thomas Bangalter",
-          thumbnail: "https://vuetifyjs.com/static/doc-images/lists/1.jpg",
+          thumbnail: "/static/png/person-1.jpeg",
           msgs: [
             {
               from: "Thomas Bangalter",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/1.jpg",
+              avatar: "/static/png/person-1.jpeg",
               text: "hey",
               dateSent: moment('2017-02-08 09:35:26'),
               seen: true
             },
             {
               from: "Thomas Bangalter",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/1.jpg",
+              avatar: "/static/png/person-1.jpeg",
               text: "It\'s me.",
               dateSent: moment('2017-02-08 09:35:50'),
               seen: false
             },
             {
               from: "Thomas Bangalter",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/1.jpg",
+              avatar: "/static/png/person-1.jpeg",
               text: "Just wondering.. What's up with that party, dude?",
               dateSent: moment('2017-02-08 09:36:26'),
               seen: false
             },
             {
               from: "Thomas Bangalter",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/1.jpg",
+              avatar: "/static/png/person-1.jpeg",
               text: "Come on, man.. thats mean",
               dateSent: moment('2018-01-25 10:37:26'),
               seen: false
@@ -193,18 +193,18 @@
         },
         {
           with: "John Doe",
-          thumbnail: "https://vuetifyjs.com/static/doc-images/lists/2.jpg",
+          thumbnail: "/static/png/person-2.jpeg",
           msgs: [
             {
               from: "John Doe",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/2.jpg",
+              avatar: "/static/png/person-2.jpeg",
               text: "A-yo, what is gucci, ma man?",
               dateSent: moment('2017-02-08 09:40:26'),
               seen: false
             },
             {
               from: "John Doe",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/2.jpg",
+              avatar: "/static/png/person-2.jpeg",
               text: "Can I come to party? It's gonna be lit!!",
               dateSent: moment('2017-02-08 09:40:29'),
               seen: false
@@ -213,31 +213,31 @@
         },
         {
           with: "Jane Winslet",
-          thumbnail: "https://vuetifyjs.com/static/doc-images/lists/3.jpg",
+          thumbnail: "/static/png/person-3.jpeg",
           msgs: [
             {
               from: "Jane Winslet",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/3.jpg",
+              avatar: "/static/png/person-3.jpeg",
               text: "Oh my gosh, I just saw the pictures.. This place is awesome! :)",
               dateSent: moment('2017-02-08 09:44:30'),
               seen: true,
             },
             {
-              avatar: "/static/png/ali--128x128.png",
+              avatar: "/static/png/ali--128x128.jpeg",
               text: "Why don't we go there someday?",
               dateSent: moment('2017-02-08 09:44:29'),
               seen: false,
             },
             {
               from: "Jane Winslet",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/3.jpg",
+              avatar: "/static/png/person-3.jpeg",
               text: "That would be great",
               dateSent: moment('2017-02-08 09:45:32'),
               seen: false
             },
             {
               from: "Jane Winslet",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/3.jpg",
+              avatar: "/static/png/person-3.jpeg",
               text: "Hey, do you have any plans for tomorrow night?",
               dateSent: moment('2017-02-08 09:45:32'),
               seen: false
@@ -246,24 +246,24 @@
         },
         {
           with: "Britta Holt",
-          thumbnail: "https://vuetifyjs.com/static/doc-images/lists/4.jpg",
+          thumbnail: "/static/png/person-4.jpeg",
           msgs: [
             {
               from: "Britta Holt",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/4.jpg",
+              avatar: "/static/png/person-4.jpeg",
               text: "How is it going, bruh?",
               dateSent: moment('2017-02-08 09:48:29'),
               seen: false
             },
             {
-              avatar: "/static/png/ali--128x128.png",
+              avatar: "/static/png/ali--128x128.jpeg",
               text: "Damn, girl. Doin good )",
               dateSent: moment('2017-02-08 09:49:32'),
               seen: false
             },
             {
               from: "Britta Holt",
-              avatar: "https://vuetifyjs.com/static/doc-images/lists/4.jpg",
+              avatar: "/static/png/person-4.jpeg",
               text: "Wanna hangout sometime or what?",
               dateSent: moment('2017-02-08 09:49:32'),
               seen: false
@@ -384,7 +384,7 @@
     70% { transform: scale(0.8) }
     100% { transform: scale(1) }
   }
-  
+
   .msg--left {float: left; margin-right: auto}
   .msg--left .msg__bubble {background-color: #eceff1}
   .msg--left .msg__avatar {margin-right: 8px}
