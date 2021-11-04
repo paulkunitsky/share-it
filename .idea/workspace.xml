@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bc37e44-b500-4354-b780-15248c6d8ae0" name="Default Changelist" comment="" />
+    <list default="true" id="7bc37e44-b500-4354-b780-15248c6d8ae0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/modules/discover/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/modules/discover/components/Index.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -265,6 +268,8 @@
       <workItem from="1635983037311" duration="1588000" />
       <workItem from="1635984734904" duration="377000" />
       <workItem from="1635990219631" duration="465000" />
+      <workItem from="1635990697484" duration="298000" />
+      <workItem from="1635991438925" duration="253000" />
     </task>
     <servers />
   </component>

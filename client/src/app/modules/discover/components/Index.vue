@@ -45,7 +45,6 @@
         :length.number="normalizedTotalPages"
         v-model="currentPage">
       </v-pagination>
-      <div class="pagination__subtext">{{ requestsLeft }} requests left for current hour</div>
     </div>
   </div>
 </template>
@@ -151,6 +150,7 @@
 
             this.totalPosts = parseInt(response.headers['x-total'])
             this.requestsLeft = response.headers['x-ratelimit-remaining']
+            console.log(this.requestsLeft);
           })
           .catch(err => {
             this.requestPending = false
